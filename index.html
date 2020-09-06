@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock paper Scissors game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+	<h1>Rock paper Scissors</h1>
+</header>
+	<div class="score-board">
+		<div id="user-label" class="badge">user</div>
+		<div id= "computer-label" class="badge">comp</div>
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
+	</div>
+	
+	<div class="result">
+		<p>Paper cover rock. you win</p>
+	</div>
+	
+	<div class="choices">
+		<div class="choice" id="r">
+			<i  class="fa fa-hand-rock-o" aria-hidden="true"></i>
+		</div>
+		<div class="choice" id="p">
+			<i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+		</div>
+		<div class="choice" id="s">
+			<i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+		</div>
+	</div>
+	
+	<p id="action-message">Make your move.</p>
+	<script src="main.js"></script>
+</body>
+</html>
