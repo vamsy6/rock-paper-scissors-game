@@ -38,7 +38,7 @@ function lose(userChoice,computerChoice){
 	computerScore++;
     userScore_span.innerHTML = userScore;	
 	computerScore_span.innerHTML = computerScore;	
-	result_div.innerHTML = `${convertToWord(userChoice)}..  beats   ${convertToWord(computerChoice)}.. YOU LOSE💩`;
+	result_div.innerHTML = `${convertToWord(computerChoice)}..  beats   ${convertToWord(userChoice)}.. YOU LOSE💩`;
 	document.getElementById(userChoice).classList.add("red-glow");
 	setTimeout(function() { userChoice_div.classList.remove('red-glow')},800)
 	
